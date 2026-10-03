@@ -84,7 +84,9 @@ The dataset represents five fictional D2C brands operating across different cate
                     │
                     ▼
        Business Recommendations
-       ---
+```
+
+---
 
 # 📊 Power BI Dashboard
 
@@ -104,7 +106,6 @@ Provides a high-level view of:
 - Brand-level performance
 
 <img src="screenshots/Executive%20overview.png" alt="Executive Overview" width="100%">
-
 
 ---
 
