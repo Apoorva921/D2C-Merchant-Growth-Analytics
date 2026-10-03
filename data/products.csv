@@ -1,0 +1,41 @@
+product_id,brand,product_name,category,cost_price,selling_price
+P001,AuraGlow,AuraGlow Product 1,Beauty,354.29,843.54
+P002,AuraGlow,AuraGlow Product 2,Beauty,463.19,1102.82
+P003,AuraGlow,AuraGlow Product 3,Beauty,421.85,1004.4
+P004,AuraGlow,AuraGlow Product 4,Beauty,396.65,944.4
+P005,AuraGlow,AuraGlow Product 5,Beauty,312.99,745.21
+P006,AuraGlow,AuraGlow Product 6,Beauty,312.98,745.2
+P007,AuraGlow,AuraGlow Product 7,Beauty,294.48,701.14
+P008,AuraGlow,AuraGlow Product 8,Beauty,447.21,1064.78
+P009,UrbanThread,UrbanThread Product 1,Fashion,913.99,1575.84
+P010,UrbanThread,UrbanThread Product 2,Fashion,960.51,1656.05
+P011,UrbanThread,UrbanThread Product 3,Fashion,661.45,1140.44
+P012,UrbanThread,UrbanThread Product 4,Fashion,1074.41,1852.43
+P013,UrbanThread,UrbanThread Product 5,Fashion,1014.61,1749.33
+P014,UrbanThread,UrbanThread Product 6,Fashion,744.87,1284.25
+P015,UrbanThread,UrbanThread Product 7,Fashion,731.59,1261.37
+P016,UrbanThread,UrbanThread Product 8,Fashion,732.28,1262.55
+P017,HomeNest,HomeNest Product 1,Home & Lifestyle,1039.24,1623.82
+P018,HomeNest,HomeNest Product 2,Home & Lifestyle,1166.26,1822.28
+P019,HomeNest,HomeNest Product 3,Home & Lifestyle,1112.8,1738.75
+P020,HomeNest,HomeNest Product 4,Home & Lifestyle,1031.75,1612.11
+P021,HomeNest,HomeNest Product 5,Home & Lifestyle,1216.43,1900.67
+P022,HomeNest,HomeNest Product 6,Home & Lifestyle,944.35,1475.54
+P023,HomeNest,HomeNest Product 7,Home & Lifestyle,1032.28,1612.93
+P024,HomeNest,HomeNest Product 8,Home & Lifestyle,1075.02,1679.73
+P025,TechEase,TechEase Product 1,Electronics Accessories,953.58,1271.45
+P026,TechEase,TechEase Product 2,Electronics Accessories,1114.02,1485.36
+P027,TechEase,TechEase Product 3,Electronics Accessories,828.59,1104.79
+P028,TechEase,TechEase Product 4,Electronics Accessories,981.94,1309.25
+P029,TechEase,TechEase Product 5,Electronics Accessories,1020.05,1360.07
+P030,TechEase,TechEase Product 6,Electronics Accessories,753.89,1005.19
+P031,TechEase,TechEase Product 7,Electronics Accessories,1027.43,1369.9
+P032,TechEase,TechEase Product 8,Electronics Accessories,814.38,1085.84
+P033,WellRoot,WellRoot Product 1,Wellness,387.35,860.78
+P034,WellRoot,WellRoot Product 2,Wellness,606.1,1346.89
+P035,WellRoot,WellRoot Product 3,Wellness,610.24,1356.1
+P036,WellRoot,WellRoot Product 4,Wellness,571.33,1269.62
+P037,WellRoot,WellRoot Product 5,Wellness,446.64,992.54
+P038,WellRoot,WellRoot Product 6,Wellness,395.42,878.72
+P039,WellRoot,WellRoot Product 7,Wellness,540.6,1201.33
+P040,WellRoot,WellRoot Product 8,Wellness,480.19,1067.08
