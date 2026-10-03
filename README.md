@@ -103,7 +103,7 @@ Provides a high-level view of:
 - Monthly Revenue
 - Brand-level performance
 
-<<img src="screenshots/Executive%20overview.png" alt="Executive Overview" width="100%">
+<img src="screenshots/Executive%20overview.png" alt="Executive Overview" width="100%">
 
 
 ---
