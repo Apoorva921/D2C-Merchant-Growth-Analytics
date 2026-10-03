@@ -1,114 +1,156 @@
 # D2C Merchant Growth & Profitability Analytics
 
-A data-driven analytics project designed to analyze D2C merchant performance across revenue, conversion, marketing efficiency, customer retention, and profitability.
+> **End-to-end business analytics project for diagnosing D2C merchant growth, conversion, customer retention, marketing efficiency, and profitability.**
 
-## Business Objective
+This project simulates a merchant analytics workflow for a D2C commerce platform. It combines **SQL, Python, Power BI, and DAX** to transform raw e-commerce data into actionable business insights and growth recommendations.
 
-The objective is to identify growth opportunities for D2C brands by analyzing:
+---
+
+## 📌 Project Overview
+
+D2C brands need to grow revenue while maintaining healthy margins, improving conversion, retaining customers, and allocating marketing spend efficiently.
+
+This project analyzes five synthetic D2C brands across a 12-month period to answer questions such as:
+
+- Which brands generate the most revenue and contribution profit?
+- Where are conversion opportunities in the customer funnel?
+- Which brands have stronger customer retention?
+- How efficiently is marketing spend being converted into revenue?
+- Which brands require profitability or cost-efficiency intervention?
+- Where should growth efforts be prioritized?
+
+The final output is an interactive **Power BI dashboard** supported by SQL analysis and Python-based exploratory analysis.
+
+> **Data Disclaimer:** All merchant, customer, product, transaction, marketing, and funnel data used in this project is synthetic and created specifically for portfolio analysis. It does not represent real merchant performance.
+
+---
+
+# 🎯 Business Objective
+
+The primary objective is to identify **data-backed growth opportunities** for D2C merchants by analyzing:
 
 - Revenue and order performance
+- Average Order Value (AOV)
 - Conversion funnel performance
 - Customer retention
 - Marketing efficiency
-- Contribution profit and margins
-- Brand-level growth opportunities
+- Contribution profit
+- Contribution margin
+- Brand-level performance
+- Growth and profitability trade-offs
 
-## Brands Analyzed
+The analysis follows a practical growth consulting approach:
 
-The project uses synthetic data representing five D2C brands:
+**Measure → Diagnose → Identify Opportunity → Recommend Action**
 
-- AuraGlow — Beauty
-- UrbanThread — Fashion
-- HomeNest — Home & Lifestyle
-- TechEase — Electronics Accessories
-- WellRoot — Wellness
+---
 
-> **Note:** All merchant and transaction data in this project is synthetic and created for portfolio analysis purposes.
+# 🏪 Brands Analyzed
 
-## Analytics Workflow
+The dataset represents five fictional D2C brands operating across different categories:
 
-Raw Data  
-↓  
-SQL Analysis  
-↓  
-Python EDA & Customer Analysis  
-↓  
-Power BI Dashboard  
-↓  
-Growth Diagnosis  
-↓  
-Business Recommendations
+| Brand | Category |
+|---|---|
+| AuraGlow | Beauty |
+| UrbanThread | Fashion |
+| HomeNest | Home & Lifestyle |
+| TechEase | Electronics Accessories |
+| WellRoot | Wellness |
 
-## Key Metrics
+---
+
+# 🔄 Analytics Workflow
+
+```text
+                RAW DATA
+                    │
+                    ▼
+            Data Preparation
+                    │
+                    ▼
+               SQL Analysis
+                    │
+                    ▼
+          Python EDA & Analysis
+                    │
+                    ▼
+             Power BI + DAX
+                    │
+                    ▼
+          Performance Diagnosis
+                    │
+                    ▼
+        Growth Opportunities
+                    │
+                    ▼
+       Business Recommendations
+
+       ---
+
+# 📊 Power BI Dashboard
+
+The Power BI dashboard contains five analytical views designed to move from overall performance analysis to detailed growth diagnosis.
+
+## 1. Executive Overview
+
+Provides a high-level view of:
 
 - Total Revenue
 - Total Orders
-- Average Order Value (AOV)
+- Average Order Value
 - Contribution Profit
 - Contribution Margin
-- Marketing Spend
 - Blended ROAS
+- Monthly Revenue
+- Brand-level performance
+
+![Executive Overview](screenshots/Executive%20overview.png)
+
+---
+
+## 2. Conversion Funnel
+
+Analyzes the customer journey from website sessions to completed purchases.
+
+**Sessions → Product Views → Add to Cart → Checkout → Purchases**
+
+![Conversion Funnel](screenshots/Conversion%20Funnel.png)
+
+---
+
+## 3. Marketing & Customers
+
+Analyzes:
+
+- Marketing Spend
+- Impressions
+- Clicks
 - CTR
-- Conversion Rate
+- Customer Acquisition
+- Customer Revenue
 - Repeat Customer Rate
 
-## Power BI Dashboard
+![Marketing and Customers](screenshots/Marketing%20and%20Customers.png)
 
-The dashboard contains five analytical areas:
+---
 
-### 1. Executive Overview
-Tracks overall revenue, orders, AOV, contribution profit, ROAS, and contribution margin.
+## 4. Profitability
 
-### 2. Conversion Funnel
-Analyzes sessions, product views, add-to-cart, checkout, purchases, and conversion rate.
+Analyzes merchant profitability through:
 
-### 3. Marketing & Customers
-Analyzes marketing spend, impressions, clicks, CTR, customer acquisition, and repeat customers.
+- Revenue
+- COGS
+- Shipping Cost
+- Gross Profit
+- Contribution Profit
+- Contribution Margin
 
-### 4. Profitability
-Analyzes revenue, COGS, shipping costs, gross profit, contribution profit, and contribution margin.
+![Profitability](screenshots/Profitability.png)
 
-### 5. Growth Opportunities
-Compares brands across profitability, conversion, retention, and revenue to identify actionable growth opportunities.
+---
 
-## Technical Stack
+## 5. Growth Opportunities & Action Plan
 
-- SQL
-- Python
-- Pandas
-- Power BI
-- DAX
-- Excel/CSV
-- Data Visualization
-- Product & Growth Analytics
+The final dashboard combines brand-level profitability, conversion, retention, and revenue analysis to identify actionable growth opportunities.
 
-## Project Structure
-
-```text
-D2C-Merchant-Growth-Analytics/
-│
-├── app/
-├── dashboard/
-│   └── D2C-Merchant-Growth-Analytics.pbix
-│
-├── data/
-│   ├── orders.csv
-│   ├── customers.csv
-│   ├── products.csv
-│   ├── marketing.csv
-│   └── website_funnel.csv
-│
-├── notebooks/
-│   ├── 02_eda.py
-│   └── 03_funnel_customer_analysis.py
-│
-├── sql/
-│   ├── 01_revenue.sql
-│   ├── 02_funnel.sql
-│   ├── 03_marketing.sql
-│   ├── 04_customer.sql
-│   └── 05_profitability.sql
-│
-├── generate_data.py
-├── requirements.txt
-└── README.md
+![Growth Opportunities](screenshots/Growth%20Plan.png)

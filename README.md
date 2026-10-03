@@ -1,12 +1,21 @@
 # D2C Merchant Growth & Profitability Analytics
 
-A portfolio project that analyzes synthetic e-commerce data across five fictional D2C brands to diagnose growth, marketing, funnel, retention, and profitability constraints.
+A data-driven analytics project designed to analyze D2C merchant performance across revenue, conversion, marketing efficiency, customer retention, and profitability.
 
-## Business flow
+## Business Objective
 
-Raw E-commerce Data → Python/SQL → KPI Analysis → Power BI Dashboard → Growth Diagnosis → Recommendations
+The objective is to identify growth opportunities for D2C brands by analyzing:
 
-## Fictional brands
+- Revenue and order performance
+- Conversion funnel performance
+- Customer retention
+- Marketing efficiency
+- Contribution profit and margins
+- Brand-level growth opportunities
+
+## Brands Analyzed
+
+The project uses synthetic data representing five D2C brands:
 
 - AuraGlow — Beauty
 - UrbanThread — Fashion
@@ -14,69 +23,92 @@ Raw E-commerce Data → Python/SQL → KPI Analysis → Power BI Dashboard → G
 - TechEase — Electronics Accessories
 - WellRoot — Wellness
 
-> All brands and data in this project are synthetic and created for portfolio/learning purposes. They are not ShopDeck merchants.
+> **Note:** All merchant and transaction data in this project is synthetic and created for portfolio analysis purposes.
 
-## Dataset
+## Analytics Workflow
 
-The generator creates:
-- 50,000+ orders
-- 10,000+ customers
-- 40 products
-- 12 months of order data
-- Marketing performance
-- Website funnel data
+Raw Data  
+↓  
+SQL Analysis  
+↓  
+Python EDA & Customer Analysis  
+↓  
+Power BI Dashboard  
+↓  
+Growth Diagnosis  
+↓  
+Business Recommendations
 
-Files:
-- data/orders.csv
-- data/customers.csv
-- data/products.csv
-- data/marketing.csv
-- data/website_funnel.csv
+## Key Metrics
 
-## Metrics
+- Total Revenue
+- Total Orders
+- Average Order Value (AOV)
+- Contribution Profit
+- Contribution Margin
+- Marketing Spend
+- Blended ROAS
+- CTR
+- Conversion Rate
+- Repeat Customer Rate
 
-Revenue = Quantity × Selling Price − Discount
+## Power BI Dashboard
 
-AOV = Revenue / Orders
+The dashboard contains five analytical areas:
 
-CAC = Marketing Spend / New Customers
+### 1. Executive Overview
+Tracks overall revenue, orders, AOV, contribution profit, ROAS, and contribution margin.
 
-ROAS = Attributed Revenue / Marketing Spend
+### 2. Conversion Funnel
+Analyzes sessions, product views, add-to-cart, checkout, purchases, and conversion rate.
 
-Gross Profit = Revenue − COGS
+### 3. Marketing & Customers
+Analyzes marketing spend, impressions, clicks, CTR, customer acquisition, and repeat customers.
 
-Contribution Profit = Revenue − COGS − Marketing Cost − Shipping Cost − RTO/Return Cost
+### 4. Profitability
+Analyzes revenue, COGS, shipping costs, gross profit, contribution profit, and contribution margin.
 
-Profit Margin = Contribution Profit / Revenue
+### 5. Growth Opportunities
+Compares brands across profitability, conversion, retention, and revenue to identify actionable growth opportunities.
 
-## How to run
+## Technical Stack
 
-### 1. Install dependencies
+- SQL
+- Python
+- Pandas
+- Power BI
+- DAX
+- Excel/CSV
+- Data Visualization
+- Product & Growth Analytics
 
-```bash
-pip install -r requirements.txt
-```
+## Project Structure
 
-### 2. Generate data
-
-```bash
-python generate_data.py
-```
-
-### 3. Run the dashboard/app
-
-```bash
-streamlit run app/app.py
-```
-
-## Project structure
-
+```text
 D2C-Merchant-Growth-Analytics/
-├── data/
-├── notebooks/
-├── sql/
-├── dashboard/
+│
 ├── app/
+├── dashboard/
+│   └── D2C-Merchant-Growth-Analytics.pbix
+│
+├── data/
+│   ├── orders.csv
+│   ├── customers.csv
+│   ├── products.csv
+│   ├── marketing.csv
+│   └── website_funnel.csv
+│
+├── notebooks/
+│   ├── 02_eda.py
+│   └── 03_funnel_customer_analysis.py
+│
+├── sql/
+│   ├── 01_revenue.sql
+│   ├── 02_funnel.sql
+│   ├── 03_marketing.sql
+│   ├── 04_customer.sql
+│   └── 05_profitability.sql
+│
 ├── generate_data.py
 ├── requirements.txt
 └── README.md
