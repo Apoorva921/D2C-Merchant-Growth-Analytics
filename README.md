@@ -103,7 +103,8 @@ Provides a high-level view of:
 - Monthly Revenue
 - Brand-level performance
 
-<img src="C:\Users\sriva\Downloads\D2C-Merchant-Growth-Analytics\screenshots\Executive overview.png" alt="Executive Overview" width="100%">
+<<img src="screenshots/Executive%20overview.png" alt="Executive Overview" width="100%">
+
 
 ---
 
